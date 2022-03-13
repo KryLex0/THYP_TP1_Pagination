@@ -67,14 +67,6 @@ if(!getMovieDatabase($mysqlClient, $nbElemPage, $numDepartElem)){
     }
 }
 
-//fonction qui permet d'obtenir l'url ou l'on se trouve
-function getCurrentUrl($numPage){
-    $query = $_GET;
-    $query['numPage'] = $numPage;
-    $query_result = http_build_query($query);
-    return "?" . $query_result;
-}
-
 //fonction qui permet d'obtenir l'url de la page précédente
 function getPreviousPageUrl(){
     $previousPageNumber = $_GET["numPage"] - 1;
