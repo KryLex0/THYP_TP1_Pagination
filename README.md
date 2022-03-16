@@ -8,3 +8,5 @@ Lecture des données provenant d'une BDD avec 2 systèmes de défilement de page
 
 
 Je me suis inspiré du système de pagination d'autres sites tels que Amazon ou encore Google. J'ai pensé la partie pagination de façon à être compréhensible dès le 1er coups d'oeil.
+
+©Adam MKHININI
